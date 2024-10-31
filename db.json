@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "titulo": "Óculos de Protecção",
+      "id": "cf05"
+    },
+    {
+      "id": "bd13",
+      "titulo": "Pc Gamer"
+    },
+    {
+      "id": "b274",
+      "titulo": "Fones de ouvidos"
+    }
+  ]
+}

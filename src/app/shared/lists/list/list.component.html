@@ -1,0 +1,17 @@
+<div style="display: flex; justify-content: flex-end;">
+  <a  routerLink="/create-products" mat-button style="margin: 8px 0px; background-color:  rgb(24, 207, 207);" >Adicionar</a>
+</div>
+
+<p *ngFor="let item of groupLists">
+
+  <mat-card appearance="outlined" style="background-color: rgb(95, 88, 88); border-radius: 10px;">
+    <mat-card-header>
+      <mat-card-title style="color: whitesmoke;">{{item.titulo}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-actions>
+      <button class="btn-e" mat-button style="color: rgb(202, 191, 191);" (click)="funcionEdit(item.id)">Editar</button>
+      <button class="btn-d" mat-button style="color: rgb(202, 191, 191);" (click)="deleteItem(item.id, item.titulo)">Deletar</button>
+    </mat-card-actions>
+  </mat-card>
+
+</p>

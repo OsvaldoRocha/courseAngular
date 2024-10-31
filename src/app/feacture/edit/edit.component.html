@@ -1,0 +1,11 @@
+<div style="display: flex; justify-content: center;">
+    <form [formGroup]="meuFormGroup" (ngSubmit)="editProducts()" style="display: flex; flex-direction: column; width: 40rem;">
+        <mat-form-field style="margin-top: 3%;">
+            <mat-label >Editar Produto</mat-label>
+            <input formControlName="titulo" matInput>
+        </mat-form-field>
+    
+        <button mat-button type="submit" style="background-color: rgb(24, 207, 207);">Editar</button>
+    </form>
+</div>
+
